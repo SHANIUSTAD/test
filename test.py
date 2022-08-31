@@ -12,10 +12,6 @@ def psb(z):
         time.sleep(0.03)
  
 os.system('clear')
-print
- 
-print
- 
 print("""
 
 \033[0;94m  _      _____ _  ___    _  ____  _   _ 
@@ -59,7 +55,6 @@ br.addheaders = [
  ('user-agent', 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
  
 def exb():
-    print
     os.sys.exit()
  
  
@@ -96,11 +91,9 @@ id = []
 def menu():
     os.system('clear')
     print(logo)
-    print ''
     print '\033[0;93mAUTHOR   : Likhon Islam'
     print '\033[0;94mFACEBOOK : Likhon Islam Anis'
     print '\033[0;96mGITHUB   : likhon70'
-    print ''
     print '\033[0;90mONLY BANGLADESHI ACCOUNTS ARE AVAILABLE'
     print '\033[0;91m'
     print 50* '-'
@@ -120,13 +113,11 @@ def action():
     global oks
     bch = raw_input('\033[0;93m\n> ')
     if bch == '':
-        print
         action()
     elif bch == '1':
         os.system('clear')
         print logo
         print 50* '-'
-        print ''
         print '170,171, 172, 173, 174, 175, 176, 177, 178, 179,130,131, 132, 133, 134, 135, 136, 137, 138, 139'
         print''
         try:
@@ -145,7 +136,6 @@ def action():
         os.system('clear')
         print(logo)
         print 50* '-'
-        print ''
         print '180,181, 182, 183, 184, 185, 186, 187, 188, 189'
         print''
         try:
@@ -164,7 +154,6 @@ def action():
         os.system('clear')
         print(logo)
         print 50* '-'
-        print ''
         print '160,161, 162, 163, 164, 165, 166, 167, 168, 169'
         print''
         try:
@@ -182,8 +171,7 @@ def action():
     elif bch == '4':
         os.system('clear')
         print(logo)
-        print 50* '-'
-        print ''
+        print 50* '-
         print '190,191, 192, 193, 194, 195, 196, 197, 198, 199,140,141, 142, 143, 144, 145, 146, 147, 148, 149'
         print''
         try:
@@ -200,11 +188,9 @@ def action():
  
     elif bch == '5':
         os.system('clear')
-        print logo
+        print+logo)
         print 50* '-'
-        print ''
         print '150,151, 152, 153, 154, 155, 156, 157, 158, 159'
-        print''
         try:
             c = raw_input('\033[0;93mChoose Code : ')
             k = '+880'
@@ -219,8 +205,7 @@ def action():
  
     elif bch == '0':
         exb()
-    else:
-        print
+    else
         action()
     xxx = str(len(id))
     psb('[\xe2\x9c\x93] Total Numbers: ' + xxx)
@@ -233,7 +218,7 @@ def action():
     time.sleep(0.5)
     print
     50 * '-'
-    print
+    print""
  
     def main(arg):
         user = arg
@@ -266,10 +251,8 @@ def action():
     p = ThreadPool(30)
     p.map(main, id)
     print
-    50 * '-'
-    print
-    print
-    '[\xe2\x9c\x93] Total OK/CP : ' + str(len(oks)) + '/' + str(len(cpb))
+    50 * '-
+    print '[\xe2\x9c\x93] Total OK/CP : ' + str(len(oks)) + '/' + str(len(cpb))
     print '[\xe2\x9c\x93] CP File Has Been Saved : save/checkpoint.txt'
     raw_input('\n[Press Enter To Go Back]')
     os.system('python2 Likhon.py')
