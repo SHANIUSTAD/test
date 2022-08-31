@@ -95,7 +95,7 @@ id = []
  
 def menu():
     os.system('clear')
-    print logo
+    print(logo)
     print ''
     print '\033[0;93mAUTHOR   : Likhon Islam'
     print '\033[0;94mFACEBOOK : Likhon Islam Anis'
@@ -143,7 +143,7 @@ def action():
  
     elif bch == '2':
         os.system('clear')
-        print logo
+        print(logo)
         print 50* '-'
         print ''
         print '180,181, 182, 183, 184, 185, 186, 187, 188, 189'
@@ -162,7 +162,7 @@ def action():
  
     elif bch == '3':
         os.system('clear')
-        print logo
+        print(logo)
         print 50* '-'
         print ''
         print '160,161, 162, 163, 164, 165, 166, 167, 168, 169'
@@ -181,7 +181,7 @@ def action():
  
     elif bch == '4':
         os.system('clear')
-        print logo
+        print(logo)
         print 50* '-'
         print ''
         print '190,191, 192, 193, 194, 195, 196, 197, 198, 199,140,141, 142, 143, 144, 145, 146, 147, 148, 149'
